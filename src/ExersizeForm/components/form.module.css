@@ -1,0 +1,81 @@
+.form1{
+    background-image: url('./images/avt1.jpg') ;
+    background-size: cover;
+    width: 24%;
+    min-height: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.form_content{
+    border-radius: 5px;
+    background-color: hsla(0,0%,100%,.15);
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px 16px;
+}
+.form_block{
+
+}
+
+.fiel_input input{
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.fiel_input input:focus{
+    border: #00C38E;
+}
+.fiel_input_password{
+    position: relative;
+}
+.fiel_input_password::after{
+    content: 'view';
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+}
+
+.button_submit{
+    display: block;
+    background-color: #00C38E;
+    border: none;
+    border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.button_login{
+    display: block;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+}

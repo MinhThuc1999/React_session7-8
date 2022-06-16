@@ -1,0 +1,53 @@
+.weatherToday{
+    background-image: url('../images/Layer0.png');
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 200px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.WrapperWrather_container{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+/*     background-image:  url('../images/natural1.jpg');
+ */    background-size: cover;
+}
+
+.weatherToday_icon, .weatherToday_temp{
+    font-size: 22px;
+    margin: 0;
+
+}
+.weatherToday_times{
+    color: rgba(128, 128, 128, 0.589);
+    font-size: 13px;
+}
+
+.weatherToday_temp{
+    font-weight: 600;
+}
+
+.WrapperWrather_title{
+    
+    padding: 10px;
+    color: white;
+}
+
+.weatherNow{display: flex;
+    justify-content: space-between;
+}
