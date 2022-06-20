@@ -8,11 +8,14 @@ import ExampleForm from "./ExampleForm";
 import AntDesigne from "./UsingAntDesigne";
 import ExersizeForm from "./ExersizeForm";
 import Weather from "./WeatherUI";
+import Login from "./NetWorking/Login";
+import TodoList from "./TodoList";
+import CallAPI from "./NetWorking";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Weather />
+    <CallAPI />
   </React.StrictMode>
 );
 
